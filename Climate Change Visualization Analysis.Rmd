@@ -1,0 +1,43 @@
+---
+title: "Climate Change Self-Study"
+author: "Hale Tussing"
+date: "4/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ed Hawkins Stripe Visual Replication
+![Stripes Replication](Ed Hawkins Stripes Replication.png)
+
+I replicated this by using the same data and recreating the color scheme usint Tableau.
+
+
+## Visualization 1: Global Temperature and Human Factors
+![](HF vs GT.gif)
+https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
+
+
+Visualization 2: Global Catastrophies
+
+![](Natural Catastrophies.png)
+
+Visualizations 3: January Historical Temperature
+
+![Historical Temperature Jan 2019](Jan Temp History.png)
+
+http://ds.data.jma.go.jp/tcc/tcc/products/gwp/temp/jan_wld.html
+
+
+
+
+
+Visualization 5: CLimate Change Denyer's Response
+
+![Medieval Trend](Medieval Trend.png)
+https://informationisbeautiful.net/visualizations/climate-change-deniers-vs-the-consensus/
+
+There was a period of significant warming during medieval times that follows the trend global warming is currently taking. The previous period was, of course, prior to when humans began to inject CO<sub>2</sub> into the atmosphere and so the current warming period is only a gradual trend that follows prior recorded data.
+This is refuted by climate change proponents since the data for the waeming period was only collected in Europe and other parts of the Northern Hemisphere
