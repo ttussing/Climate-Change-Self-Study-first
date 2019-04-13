@@ -2,6 +2,7 @@
 title: "Climate Change Self-Study"
 author: "Hale Tussing"
 date: "4/10/2019"
+date: "4/14/2019"
 output: html_document
 ---
 
@@ -9,35 +10,103 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Ed Hawkins Stripe Visual Replication
+
+### Ed Hawkins Stripe Visual Replication
 ![Stripes Replication](Ed Hawkins Stripes Replication.png)
+I replicated this by using the same data and recreating the color scheme using Tableau.
 
-I replicated this by using the same data and recreating the color scheme usint Tableau.
 
 
-## Visualization 1: Global Temperature and Human Factors
+## Visuals
+
+Prior to the literary interpretation, I wanted to introduce the visuals and so I can later refer to them and their qualities that compare and contrast to eachother, also to note, I will later refer to the visualizations in abbreviated form ex:"Viz1" for the first Visualization.
+
+
+### Visualization 1: Global Temperature and Human Factors [^1]
 ![](HF vs GT.gif)
-https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 
 
-Visualization 2: Global Catastrophies
+
+### Visualization 2: Global Catastrophies[^2]
 
 ![](Natural Catastrophies.png)
 
-Visualizations 3: January Historical Temperature
+### Visualization 3: January Historical Temperature[^3]
 
-![Historical Temperature Jan 2019](Jan Temp History.png)
+![Historical January Temperature Through 2019](Jan Temp History.png)
 
-http://ds.data.jma.go.jp/tcc/tcc/products/gwp/temp/jan_wld.html
-
-
-
+Supplimented info of the five warmest years:<br>
+Five Warmest Years (Anomalies): 1st. 2016(+0.52°C), 2nd. 2019,2017(+0.39°C), 4th. 2015,2007,2002(+0.29°C)
 
 
-Visualization 5: CLimate Change Denyer's Response
+### Visualization 4: NASA Data on Rising CO<sub>2</sub> Levels [^4]
+
+![NASA](NASA RISING TEMP.png)
+
+
+### Visualization 5: Climate Change Denyer's Response [^5]
 
 ![Medieval Trend](Medieval Trend.png)
-https://informationisbeautiful.net/visualizations/climate-change-deniers-vs-the-consensus/
 
-There was a period of significant warming during medieval times that follows the trend global warming is currently taking. The previous period was, of course, prior to when humans began to inject CO<sub>2</sub> into the atmosphere and so the current warming period is only a gradual trend that follows prior recorded data.
-This is refuted by climate change proponents since the data for the waeming period was only collected in Europe and other parts of the Northern Hemisphere
+
+
+In their paper "Can Visualizations Save the World?"[^6], SHEPPARD, SHAW, FLANDERS and BURCH created specific frameworks for developing accurate and ethical visualizations that could make a significant impact, specifically in the community. I will be using these frameworks in developing an analysis of the visualizations I've found that apply to Global Climate Change.
+
+First is their definition of a successful visualization[^6]
+
+>######Success would appear to require: <br>
+>######1. Disclosure: a window into the future which is personally meaningful and tangible, making the global both local and personal, putting scientific information into understandable forms and contexts, and showing possible negative and positive outcomes;<br>
+>######2. Drama: a vivid and compelling presentation with emotional content, landscape realism, and intensity of engagement in the display media; and <br>
+>######3. Defensibility: a systematic and credible process that enables transparency and trust in the presenters and underlying information. 
+
+Sheppard et al. also include an ethical code when creating visualizations[^6]
+
+>######Code of Ethics for conventional use of landscape visualization, which identifies the following principles or criteria that may be relevant to climate change applications:<br>
+######• accuracy of visualization relative to expected conditions; <br>
+######• representativeness of views in space and time, relative to the context; <br>
+######• visual clarity of presentations; <br>
+######• interest and engagement of the audience/users; <br>
+######• legitimacy or accountability of the visualization, including transparency of data and the production process; and <br>
+
+
+My plan is to judge the above visualizations by narrowing this criteria down into:
+<ol>
+<li> Making a point and showing a "window to the future"[^6]
+<li> Compelling and engaging
+<li> Not transparent or possibly deceptive
+<li> Visual clarity
+<li> Relative to the point
+</ol>
+
+### Visualization Analysis
+
+Based on these criteria, I can analyze the chosen visualizations.
+
+Viz1's quality of animation serves many purposes, for instance it can be a major benefit to both disclosure and drama. The thought process is very clearly laid out in that it shows multiple factors that contribute to the human influence and, when summed, these align very clearly with the warming line. The major fault in Viz1 is how it lacks a label for the black line that indicates warming. In this particular case, the information is clearly labeled when isolated in its own graph earlier in the webpage, but since Viz1 has been taken out of context we can only see the "Observed" label at the end. There does not seem to be any misleading going on in this graph, unless the data is falsified. It is visually very clear and engaging for the audience. Viz1 is unique in that the animation can show multiple related trends, then how they combine to align and make the overall point.
+<br>While not animated, Viz2 also has different data collected into one graph, all centered around catastrophes. They establish that Geophysical disasters, unrelated to human intervention, maintain a very steady rate, however catastrophes rates that interact directly or indirectly with human influence fluctuate. Additionally, the explanation of different types of data, along with the trendlines does make Viz2 have significant clarity, especially compared to what we can see in Viz1. The main issue is that even though it shows a lot of data, it doesn’t directly reference human causes in the same visualization.<br>
+While Viz1 and Viz2 gave multiple insights to paint one picture, Viz3 only shows one specific statistic: temperature anomalies in January. This statement is very clearly represented with 3 lines to show each year, running mean, and linear trend. Although not be as compelling and engaging as Viz1 and Viz2, it does show a path into the future. It’s very visually clear what is going on, and if not understood, there is a clear explanation below. The only transparency might be linked to how it is only showing the months of January, although this issue only exists because we are isolating this month, in reality the website has data on every other month with the same evaluation. Compared to Viz1 and Viz2, Viz3 is making a specific point clear without being as engaging. It is focusing its strength more on representing the data as straightforward as possible. <br>
+Moving to Viz4, we can first notice that it is coming from NASA, which, for most, is a very trusted source and so doubt is removed for many viewers. The downside to this visualization is that it does not show anything about when humans contributed, we only assume that the sudden change is based on recent human contributions. That being said, the point of this graph is to show that there are shifts in the amount of CO<sub>2</sub> in our atmosphere over the course of hundreds of thousands of years, and that we have clearly passed the point of it acting simply as part of the trend. Because of this stark visual, Viz4 is engaging and makes a clear attempt to not be deceptive, especially when clarifying the maximum level of CO<sub>2</sub> the past 400,000 years. This might not provide much of a window into the future, but it makes a specific point on where we have gotten to.<br>
+Viz5 attempts to tell a different story on how climate change may not be a function of human actions. The graph is very clear in the point it is trying to make: the current warming that is occurring is similar to a warming occurring in the medieval period, and thus human emission has not changed the climate. This graph is engaging and relevant to the point, but its most significant quality is how visually clear it is. Medieval and current periods are clearly labeled along with a timeline, and it has a very simple Y axis to show it is representing the change in temperature. The major issue with Viz5 is that it has some deceptive qualities including the fact that the temperature was only taken from certain areas and not actually globally.<br>
+
+
+### Overall Assessment, Conclusion
+
+Of all 5 visualizations, Viz2 had the best "window into the future" by showing the significant shifts in natural disasters. Mostly due to its animation, Viz1 is very engaging, and also best at showing the human contribution to global climate change. Viz4 from NASA is probably the least deceptive since it is showing atmospheric temperatures in the last 400,000 years, retrieved from ice core samples. Finally, Viz3 is very relevant and to the point, showing the very specific data points captured, and then two additional lines to clarify exactly trend the data was following. <br>
+
+All of these visualizations have their own strengths, and to represent them I scored each with the criteria I initially defined:
+
+
+![Visualizations Scorecard](Visualizations Scorecard.png)
+
+[^1]: Roston, E. and Migliozzi, B.  2015: Bloomberg Businessweek [What's Really Warming the World](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
+
+[^2]: Munich Re 2016: Climate Signals [NatCat Service](https://climatenexus.org/climate-news-archive/extreme-weather/infographics-climate-change-and-hurricanes/)
+
+[^3]: Japan Meteorological Agency 2019: Tokyo Climate Center [Monthly Anomalies of Global Average Surface Temperature](http://ds.data.jma.go.jp/tcc/tcc/products/gwp/temp/jan_wld.html)
+
+[^4]: Vostok ice core data/J.R. Petit et al.; NOAA Mauna Loa CO2 record: NASA [Climate change: How do we know?](https://climate.nasa.gov/evidence/)
+
+[^5]: NESDIS 2009: Information is Beautiful, [Climate Change Deniers vs The Consensus](https://informationisbeautiful.net/visualizations/climate-change-deniers-vs-the-consensus/)
+
+[^6]: SHEPPARD S., SHAW A., FLANDERS D. and BURCH S. 2008: [Can Visualisation Save the World? – Lessons for Landscape Architects from Visualizing Local Climate Change](https://s3.amazonaws.com/academia.edu.documents/46930198/Buh_2-21.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1555009088&Signature=z0v6dwmPfzDB1ob%2F8dVIaRnPIcg%3D&response-content-disposition=inline%3B%20filename%3DCan_Visualisation_Save_the_World_Lessons.pdf)
+
