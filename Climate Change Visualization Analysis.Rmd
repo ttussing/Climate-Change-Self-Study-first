@@ -1,10 +1,10 @@
 ---
 title: "Climate Change Self-Study"
 author: "Hale Tussing"
-date: "4/10/2019"
-date: "4/14/2019"
+date: "`r Sys.Date()`"
 output: html_document
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
